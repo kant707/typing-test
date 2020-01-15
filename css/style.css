@@ -21,6 +21,13 @@ body {
 .main-heading {
   margin-bottom: 32px; }
 
+.display-msg {
+  display: none;
+  font-size: 16px;
+  margin-bottom: 32px; }
+  .display-msg.show {
+    display: block; }
+
 .wrapper {
   width: 68%;
   margin-right: auto;
@@ -33,7 +40,9 @@ body {
     resize: none;
     background: #ffd;
     font-size: 20px;
-    padding: 12px; }
+    padding: 12px;
+    width: 100%;
+    border-radius: 16px 16px 2px 2px; }
     .wrapper .typing-area:focus {
       outline: none; }
   .wrapper .cta {
@@ -43,5 +52,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1.2px; }
+    .wrapper .cta:focus {
+      outline: none; }
 
 /*# sourceMappingURL=style.css.map */
